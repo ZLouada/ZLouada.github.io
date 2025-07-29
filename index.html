@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" id="html-tag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahira - Moroccan Haute Couture</title>
+    <meta name="description" content="Discover the elegance of traditional Moroccan fashion. Handcrafted caftans, takchitas, and djellabas from Zayna Couture.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body id="body-tag">
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Zahira Couture</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link" data-key="nav_about">About Us</a></li>
+                <li class="nav-item"><a href="#collection" class="nav-link" data-key="nav_collection">Our Collection</a></li>
+                <li class="nav-item"><a href="#craftsmanship" class="nav-link" data-key="nav_craftsmanship">Craftsmanship</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-key="nav_contact">Contact</a></li>
+                <li class="nav-item lang-switcher">
+                    <a class="nav-link"><i class="fas fa-globe"></i></a>
+                    <div class="lang-dropdown">
+                        <a href="#" class="lang-option" data-lang="en">English (EN)</a>
+                        <a href="#" class="lang-option" data-lang="fr">Français (FR)</a>
+                        <a href="#" class="lang-option" data-lang="ar">العربية (AR)</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-key="hero_title">The Art of Moroccan Elegance</h1>
+                <p data-key="hero_subtitle">Timeless designs, handcrafted with passion.</p>
+                <a href="#collection" class="cta-button" data-key="hero_cta">Explore Collection</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title" data-key="about_title">Our Story</h2>
+            <div class="about-content">
+                <p data-key="about_text">Welcome to Zahira Couture, where the rich tapestry of Moroccan heritage is woven into every thread. Born from a passion for timeless elegance and ancestral craftsmanship, our brand celebrates the iconic caftan. Each piece is a work of art, meticulously handcrafted by skilled artisans in the heart of Morocco, blending authentic tradition with a touch of modern sophistication.</p>
+            </div>
+        </section>
+
+        <section id="collection" class="container">
+            <h2 class="section-title" data-key="collection_title">Our Collection</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/caftan1.jpg" alt="Elegant Red Moroccan Caftan">
+                    <div class="overlay">
+                        <h3>Caftan Malaki</h3>
+                        <p data-key="caftan1_desc">Royal Red Silk</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/caftan2.jpg" alt="Blue and Gold Moroccan Takchita">
+                     <div class="overlay">
+                        <h3>Takchita Fassi</h3>
+                        <p data-key="caftan2_desc">Fez Blue & Gold Embroidery</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/caftan3.jpg" alt="White modern Caftan">
+                     <div class="overlay">
+                        <h3>Caftan Jawhara</h3>
+                        <p data-key="caftan3_desc">Ivory White Pearl</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/caftan4.jpg" alt="Green Djellaba">
+                     <div class="overlay">
+                        <h3>Djellaba Soussia</h3>
+                        <p data-key="caftan4_desc">Emerald Green Cotton</p>
+                    </div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="assets/caftan5.jpg" alt="Black Caftan with silver embroidery">
+                     <div class="overlay">
+                        <h3>Caftan Layl</h3>
+                        <p data-key="caftan5_desc">Midnight Black & Silver</p>
+                    </div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="assets/caftan6.jpg" alt="Pink and floral Caftan">
+                     <div class="overlay">
+                        <h3>Caftan Zahra</h3>
+                        <p data-key="caftan6_desc">Rose Pink Floral</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="craftsmanship" class="craft-section">
+             <div class="container craft-content">
+                <div class="craft-text">
+                    <h2 class="section-title" data-key="craft_title">The Soul of Our Seams</h2>
+                    <p data-key="craft_text">Our commitment is to preserve the authentic Moroccan art of "Maalem". Every caftan is a testament to this heritage, featuring intricate hand-embroidery ('Tarz'), delicate beading ('Tanbat'), and the traditional 'Sfifa' and 'Aakad' closures. We partner with master craftsmen ('Maalems') who have inherited their skills through generations, ensuring each garment is not just worn, but cherished.</p>
+                </div>
+                 <div class="craft-image">
+                     <img src="assets/craft.jpg" alt="Moroccan artisan weaving a traditional fabric.">
+                 </div>
+             </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="section-title" data-key="contact_title">Get In Touch</h2>
+            <p class="contact-subtitle" data-key="contact_subtitle">For bespoke orders, inquiries, or to schedule a private viewing at our Casablanca atelier, please contact us.</p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" name="name" data-key-placeholder="form_name_placeholder" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" data-key-placeholder="form_email_placeholder" placeholder="Your Email" required>
+                <textarea name="message" id="message" rows="6" data-key-placeholder="form_message_placeholder" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button" data-key="form_button">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            <p data-key="footer_text">&copy; 2025 Zahira Couture. All Rights Reserved. Casablanca, Morocco.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
